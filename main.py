@@ -15,7 +15,7 @@ model_name="gemini-1.5-flash-latest" #Switch to "gemini-1.0-pro" or any free mod
 app=Flask(__name__)
 
 generation_config = {
-  "temperature": 1,
+  "temperature": 0,
   "top_p": 0.95,
   "top_k": 0,
   "max_output_tokens": 8192,
